@@ -1,0 +1,24 @@
+;******* TEMPLATE  C Sample Program Module Definition File (.DEF) ********
+;
+;  The module definition file supplies extra information about the program
+;  module to the LINKER.
+;  Copyright 1991 IBM Corporation
+;
+;  Note the WINDOWAPI keyword is required for link386
+NAME    POSYS WINDOWAPI
+
+DESCRIPTION 'Sample Mesa DOK Application'
+
+CODE    MOVEABLE
+DATA    MOVEABLE MULTIPLE
+
+HEAPSIZE  262144
+STACKSIZE 65536
+
+IMPORTS
+        REXX.RexxStart
+        REXXAPI.RexxRegisterFunctionExe
+        REXX.RexxSetHalt
+        MESAFEED.setRTFValue
+        MESAFEED.getRTFValue
+

@@ -1,0 +1,81 @@
+.\posys.res: \
+    .\posys.rc \
+    {$(INCLUDE)}posys.H
+
+.\porder.obj: \
+    .\porder.cpp \
+    {.\;..\;$(INCLUDE);}sampcont.h \
+    {.\;..\;$(INCLUDE);}controlr.h \
+    {.\;..\;$(INCLUDE);}address.h \
+    {.\;..\;$(INCLUDE);}color.h \
+    {.\;..\;$(INCLUDE);}font.h \
+    {.\;..\;$(INCLUDE);}format.h \
+    {.\;..\;$(INCLUDE);}rect.h \
+    {.\;..\;$(INCLUDE);}object.h \
+    {.\;..\;$(INCLUDE);}mlib.h \
+    {.\;..\;$(INCLUDE);}stream.h \
+    {.\;..\;$(INCLUDE);}mmath.h \
+    {.\;..\;$(INCLUDE);}except.h \
+    {.\;..\;$(INCLUDE);}posys.h \
+    {.\;..\;$(INCLUDE);}porder.hpp \
+    {.\;..\;$(INCLUDE);}interest.h \
+    {.\;..\;$(INCLUDE);}change.h \
+    {.\;..\;$(INCLUDE);}mmemory.h \
+    {.\;..\;$(INCLUDE);}range.h \
+    {.\;..\;$(INCLUDE);}mesamod.h \
+    {.\;..\;$(INCLUDE);}sheetv.h \
+    {.\;..\;$(INCLUDE);}action.h \
+    {.\;..\;$(INCLUDE);}model.h \
+    {.\;..\;$(INCLUDE);}view.h \
+    {.\;..\;$(INCLUDE);}mesaview.h \
+    {.\;..\;$(INCLUDE);}select.h \
+    {.\;..\;$(INCLUDE);}baseobject.h \
+    {.\;..\;$(INCLUDE);}cell.h \
+    {.\;..\;$(INCLUDE);}mutex.h \
+    {.\;..\;$(INCLUDE);}layer.h \
+    {.\;..\;$(INCLUDE);}password.h \
+    {.\;..\;$(INCLUDE);}mwindow.h \
+    {.\;..\;$(INCLUDE);}queue.h \
+    {.\;..\;$(INCLUDE);}value.h \
+    {.\;..\;$(INCLUDE);}mstring.h \
+    {.\;..\;$(INCLUDE);}array.h \
+    {.\;..\;$(INCLUDE);}ruler.h \
+    {.\;..\;$(INCLUDE);}extaddin.h \
+    {.\;..\;$(INCLUDE);}array_element.h \
+    {.\;..\;$(INCLUDE);}run.h
+
+.\posys.obj: \
+    .\posys.cpp \
+    {.\;..\;$(INCLUDE);}sampcont.h \
+    {.\;..\;$(INCLUDE);}controlr.h \
+    {.\;..\;$(INCLUDE);}address.h \
+    {.\;..\;$(INCLUDE);}color.h \
+    {.\;..\;$(INCLUDE);}font.h \
+    {.\;..\;$(INCLUDE);}format.h \
+    {.\;..\;$(INCLUDE);}rect.h \
+    {.\;..\;$(INCLUDE);}object.h \
+    {.\;..\;$(INCLUDE);}mlib.h \
+    {.\;..\;$(INCLUDE);}stream.h \
+    {.\;..\;$(INCLUDE);}mmath.h \
+    {.\;..\;$(INCLUDE);}except.h \
+    {.\;..\;$(INCLUDE);}posys.h \
+    {.\;..\;$(INCLUDE);}porder.hpp \
+    {.\;..\;$(INCLUDE);}interest.h \
+    {.\;..\;$(INCLUDE);}change.h
+
+.\sampcont.obj: \
+    .\sampcont.cpp \
+    {.\;..\;$(INCLUDE);}sampcont.h \
+    {.\;..\;$(INCLUDE);}controlr.h \
+    {.\;..\;$(INCLUDE);}address.h \
+    {.\;..\;$(INCLUDE);}color.h \
+    {.\;..\;$(INCLUDE);}font.h \
+    {.\;..\;$(INCLUDE);}format.h \
+    {.\;..\;$(INCLUDE);}rect.h \
+    {.\;..\;$(INCLUDE);}object.h \
+    {.\;..\;$(INCLUDE);}mlib.h \
+    {.\;..\;$(INCLUDE);}stream.h \
+    {.\;..\;$(INCLUDE);}mmath.h \
+    {.\;..\;$(INCLUDE);}except.h \
+
+

@@ -1,0 +1,39 @@
+Mesa Developer Object Kit Preview
+
+General information, disclaimers, etc.
+
+1. Documentation.
+
+There are three different forms of documentation currently available to the Mesa DOK Preview participant.  The first is a PostScript document (4.4MB uncompressed, and 270 pages) containing documentation on the classes that comprise the Mesa DOK, including class names, method functions, and public variables, as well as an Overview of the Mesa DOK product.  The second is an OS/2 .INF on-line help file, with the same information in a hypertext form.  The third is the header files and sample code themselves.
+
+At this point, both the PostScript document and the hypertext .INF file are out-of-date with respect to the actual code.  For the moment, the best way to get information on the classes is to look at the header files directly.  We recognize that this is not the ideal way to document a programmer's tool, and will be working to improve our documentation; this will be complete before we release Mesa DOK.
+
+2. Reporting bugs and requesting features.
+
+While we are making the Mesa DOK preview available in a completely unsupported way at this point, we are certainly very interested in hearing any feedback you wish to provide, whether in terms of bugs found or features that would be helpful.  While we cannot guarantee any response other than an acknowledgement that we've received the feedback, rest assured that we will in fact read each and every message we receive, and act on it accordingly.  Send that feedback to us at:
+dok-support@athena.com
+or via fax at:
+1.617.436.7665
+
+If you'd like to see the bug list for the Mesa application, it's available at:
+ftp://ftp.athena.com/pub/Mesa2/mesaBugs.ps
+ftp://ftp.athena.com/pub/Mesa2/mesaBugs.m2
+
+3. Expiration of this Preview code.
+
+The MESADOK.DLL file contained herein will expire on January 31, 1996.  Since we envision the Preview program to be an ongoing process, with regular refreshes of the code, we expect that this will not be a burden to anyone.  By 'expire', we mean that the code will no longer run after that date, and your license to use the code expires on that date.
+
+4. This is Preview Code.
+
+Mesa DOK is not a shipping product.  Please do not build commercial application that depend on Mesa DOK.  Athena Design may, without notice, change any specifications, including but not limited to file formats, licensing procedures, and APIs.  Athena Design reserves the right not to ship Mesa DOK, or otherwise support it in any way in the future.  Users of Mesa DOK Preview assume all risks and consequences, direct or indirect, of using Mesa DOK Preview.
+
+5. Mesa DOK Beta Program
+
+Athena Design is currently conducting a closed beta program for the Mesa DOK componentware.  If you are interested in participating in the beta program, please send email to info@athena.com.
+
+6. Legal Disclaimer.
+
+NO WARRANTIES:  This code may contain errors that could cause failures or loss of data, or may be incomplete or contain inaccuracies.  All use of this code is at your sole risk.  This code is provided on an "AS IS" basis, without any warranty whatsoever, whether express or implied, whether as to performance, accuracy, or completeness or as to merchantability or fitness for a particular purpose.  Athena Design further expressly disclaims any reliance on either the code or itself.  Athena Design has not promised or guaranteed that this code will continue to be available in the future, and Athena Design has no express or implied obligation to announce this code as a product, to support it, to introduce any product based on it, or to continue to make it available. 
+
+NOTE:  Mesa DOK Preview is packaged on this diskette using Info-ZIP's compression utility.  Info-ZIP's software (Zip, UnZip and related utilities) is free and can be obtained as source code or executables from various bulletin board services and anonymous-ftp sites, including CompuServe's IBMPRO forum and ftp.uu.net:/pub/archiving/zip/*.
+

@@ -1,0 +1,38 @@
+.\sampApp.res: \
+    .\sampApp.rc \
+    {$(INCLUDE)}sampApp.H
+
+.\sampApp.obj: \
+    .\sampApp.cpp \
+    {.\;..\;$(INCLUDE);}sampcont.h \
+    {.\;..\;$(INCLUDE);}controlr.h \
+    {.\;..\;$(INCLUDE);}address.h \
+    {.\;..\;$(INCLUDE);}color.h \
+    {.\;..\;$(INCLUDE);}font.h \
+    {.\;..\;$(INCLUDE);}format.h \
+    {.\;..\;$(INCLUDE);}rect.h \
+    {.\;..\;$(INCLUDE);}object.h \
+    {.\;..\;$(INCLUDE);}mlib.h \
+    {.\;..\;$(INCLUDE);}stream.h \
+    {.\;..\;$(INCLUDE);}mmath.h \
+    {.\;..\;$(INCLUDE);}except.h \
+    {.\;..\;$(INCLUDE);}sampApp.h \
+    {.\;..\;$(INCLUDE);}interest.h \
+    {.\;..\;$(INCLUDE);}change.h
+
+.\sampcont.obj: \
+    .\sampcont.cpp \
+    {.\;..\;$(INCLUDE);}sampcont.h \
+    {.\;..\;$(INCLUDE);}controlr.h \
+    {.\;..\;$(INCLUDE);}address.h \
+    {.\;..\;$(INCLUDE);}color.h \
+    {.\;..\;$(INCLUDE);}font.h \
+    {.\;..\;$(INCLUDE);}format.h \
+    {.\;..\;$(INCLUDE);}rect.h \
+    {.\;..\;$(INCLUDE);}object.h \
+    {.\;..\;$(INCLUDE);}mlib.h \
+    {.\;..\;$(INCLUDE);}stream.h \
+    {.\;..\;$(INCLUDE);}mmath.h \
+    {.\;..\;$(INCLUDE);}except.h \
+
+
